@@ -1,0 +1,4 @@
+*.ipynb
+*.pyc
+sample_data/*
+model/*
