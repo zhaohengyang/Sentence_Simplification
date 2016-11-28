@@ -21,7 +21,7 @@ Reverse training sequence is a trick that avoid long-term depandencies in RNN. T
 At each time step, the decoder output is depend on the combination of all the input hidden states instead of just using the last one.
 
 ### Visualize system output
-![attention visualization png](/img/heatmap.jpg)
+![attention visualization png](/img/heatmap.png)
 
 The input sentence are at the bottom. The model prediction is on the left. From the image we can see that great attendent (dark color) is given to relevent words in the input sequence when predicting each word.
 
