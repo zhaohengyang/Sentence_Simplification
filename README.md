@@ -2,9 +2,13 @@
 
 The project aim to use the most cutting edge deep learning techniques to build a advance model that solve sentence reduction problem. The following are techniques involved in this project.
 
+
 ### Tech 1: Using RNN encoder-decoder sturcture
 
 The idea of Encoder-Decoder architecture is to use use one RNN to read the input sequence to generate a fixed dimensional vector represent the semantic meaning of the sentence which is usually called context or memory. The decoder is another RNN which is trained to use context as input to generate the output sequence.
+
+#### Model structure
+![Model structure png](/img/model_structure.png)
 
 ### Tech 2: Reverse training sequence -- better performance
 
